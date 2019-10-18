@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Login from './components/Login/Login'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      Hello ESOTA
+    <div className='App'>
+      <Login />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
