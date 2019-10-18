@@ -14,7 +14,6 @@ class Login extends Component {
             <form action='/login' method='post'>
               <div className='form-group'>
                 <label htmlFor='country'>Country</label>
-                {/* <input autoFocus className='form-control' id='country' name='country' placeholder='Choose Country' tabIndex='1' type='text' /> */}
                 <select className='form-control'>
                   <option selected>Tanzania</option>
                   <option value='1'>Kenya</option>
