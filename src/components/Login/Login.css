@@ -30,10 +30,12 @@
     padding-left: 0;
     padding-right: 0;
     background-color: #ff2500;
+    color:white;
 }
 
 .btn-block:hover{
     background-color: #FF4D4D;
+    color:white;
 }
 
 form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"] {
