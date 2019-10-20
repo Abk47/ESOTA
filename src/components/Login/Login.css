@@ -32,6 +32,10 @@
     background-color: #ff2500;
 }
 
+.btn-block:hover{
+    background-color: #FF4D4D;
+}
+
 form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"] {
     height: 44px;
 }
