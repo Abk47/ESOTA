@@ -18,7 +18,7 @@ class ProductList extends Component {
       return <Product key={i} name={item.name} price={item.price} image={item.image} />
     })
     return (
-      <div class='grid'>
+      <div className='row grid'>
         {ProductItems}
       </div>
     )
