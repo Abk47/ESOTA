@@ -1,0 +1,23 @@
+.logo-sfdc {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 430px;
+    text-align: center;
+}
+
+.legal {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.legal li {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #FF2500;
+    display: inline-block;
+    margin: 5px;
+}
