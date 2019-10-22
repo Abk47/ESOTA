@@ -19,8 +19,6 @@ class Login extends Component {
                   <label htmlFor='country'>Country</label>
                   <select className='form-control'>
                     <option defaultValue='true'>Tanzania</option>
-                    <option value='1'>Kenya</option>
-                    <option value='2'>Uganda</option>
                   </select>
                 </div>
                 <div className='form-group'>
