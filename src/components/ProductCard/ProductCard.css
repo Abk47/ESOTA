@@ -52,6 +52,7 @@
 .price-wrap {
     letter-spacing: -0.7px;
     text-align: center;
+    cursor: default;
 }
 
 .price {
@@ -62,4 +63,5 @@
     color: #212529;
     display: block;
     text-align: center;
+    cursor: default;
 }
