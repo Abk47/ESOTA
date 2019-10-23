@@ -1,13 +1,11 @@
 import React from 'react'
 import './App.css'
-import ProductList from './components/ProductList/ProductList'
-import Header from './components/Header/Header'
+import Grid from './components/Grid/Grid'
 
 function App () {
   return (
     <div className='App'>
-      <Header />
-      <ProductList />
+      <Grid />
     </div>
   )
 }
