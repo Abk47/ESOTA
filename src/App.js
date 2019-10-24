@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
-import Grid from './components/Grid/Grid'
+import Wrapper from './components/Wrapper/Wrapper'
 
 function App () {
   return (
     <div className='App'>
-      <Grid />
+      <header className='heading mb-3 mt-3' style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '30px' }}>
+        PRODUCTS
+      </header>
+      <Wrapper />
     </div>
   )
 }
