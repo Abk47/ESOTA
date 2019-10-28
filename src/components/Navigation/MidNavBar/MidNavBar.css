@@ -1,0 +1,9 @@
+.header-main {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
