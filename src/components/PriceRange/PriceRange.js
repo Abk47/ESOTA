@@ -19,7 +19,7 @@ const PriceRange = (props) => (
             <input className='form-control' placeholder='5,000,0000' type='number' />
           </div>
         </div>
-        <button className='btn btn-block btn-primary'>Apply</button>
+        <button className='btn btn-block' style={{ backgroundColor: '#ff2500', color: 'white' }}>Apply</button>
       </div>
     </div>
   </article>
