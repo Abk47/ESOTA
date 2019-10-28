@@ -1,9 +1,12 @@
 import React from 'react'
 import './Navigation.css'
+import TopBar from './TopBar/TopBar'
 
 const Navigation = (props) => {
   return (
-    <p>Navbar</p>
+    <header className='section-header'>
+      <TopBar />
+    </header>
   )
 }
 
