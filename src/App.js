@@ -4,6 +4,7 @@ import Wrapper from './components/Wrapper/Wrapper'
 import Banner from './components/Banner/Banner'
 import Navigation from './components/Navigation/Navigation'
 import Advert from './components/Advert/Advert'
+import Footer from './components/Footer/Footer'
 
 function App () {
   return (
@@ -15,6 +16,7 @@ function App () {
       </header>
       <Wrapper />
       <Advert />
+      <Footer />
     </div>
   )
 }
