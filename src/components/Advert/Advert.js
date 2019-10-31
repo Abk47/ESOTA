@@ -6,7 +6,6 @@ const Advert = () => (
     <div className='container'>
       <h3 className='mb-3' style={{ textAlign: 'center' }}>Download our mobile application</h3>
       <div style={{ textAlign: 'center' }}>
-        <span><img src='images/appstore.png' alt='logo' height='40' /></span>
         <span><img src='images/playmarket.png' alt='logo' height='40' /></span>
       </div>
     </div>

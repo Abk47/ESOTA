@@ -1,23 +1,17 @@
 import React from 'react'
-import './App.css'
-import Wrapper from './components/Wrapper/Wrapper'
-import Banner from './components/Banner/Banner'
-import Navigation from './components/Navigation/Navigation'
-import Advert from './components/Advert/Advert'
-import Footer from './components/Footer/Footer'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
+import Login from './components/Login/Login'
+import Home from './components/Home/Home'
 
 function App () {
   return (
-    <div className='App'>
-      <Navigation />
-      <Banner />
-      <header className='heading mb-2 mt-3' style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '30px' }}>
-        PRODUCTS
-      </header>
-      <Wrapper />
-      <Advert />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/login' component={Login} />
+      </Switch>
+    </BrowserRouter>
   )
 }
 
