@@ -40,9 +40,9 @@ const Footer = (props) => (
           <h6>Quick Links</h6>
           <ul className='footer-links'>
             <li><Link to='/profile'>My profile</Link></li>
-            <li><Link to='/'>Delivery</Link></li>
-            <li><Link to='/'>Pending products</Link></li>
-            <li><Link to='/'>Payment</Link></li>
+            <li><Link to='/delivery'>Delivery</Link></li>
+            <li><Link to='/pending'>Pending products</Link></li>
+            <li><Link to='/payment'>Payment</Link></li>
           </ul>
         </div>
 
