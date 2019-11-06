@@ -18,7 +18,6 @@ const Profile = (props) => (
               <p className='card-text'>Congratulations, you're now receiving credits.</p>
             </div>
           </div>
-          
           <div className='col-md-6'>
             <div className='c100 p33 big'>
               <span>33%</span>

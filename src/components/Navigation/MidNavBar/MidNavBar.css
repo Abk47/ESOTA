@@ -7,3 +7,8 @@
 .align-items-center {
     align-items: center !important;
 }
+
+a:-webkit-any-link{
+    text-decoration:none !important;
+    }
+    
