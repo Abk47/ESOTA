@@ -23,14 +23,14 @@ class Login extends Component {
                 </div>
                 <div className='form-group'>
                   <label htmlFor='phone number'>Phone Number</label>
-                  <input autoComplete='off' className='form-control password' id='phone' name='phone' placeholder='Phone Number' tabIndex='2' type='number' required />
+                  <input autoComplete='off' className='form-control password' id='phone' name='phone' placeholder='Phone Number' tabIndex='2' type='text' required />
                 </div>
                 <button className='btn btn-lg btn-block' name='commit' tabIndex='3' type='submit' value='Log In'>LOGIN</button>
               </form>
               <div className='panel-footer'>
               Welcome To Our Official Web Application
               </div>
-            </div>
+            </div> 
           </div>
         </div>
         <Footer />
