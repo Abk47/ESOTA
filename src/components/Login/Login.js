@@ -4,6 +4,16 @@ import Aux from '../../HOC/Auxillary'
 import Footer from '../Login-Footer/Footer'
 
 class Login extends Component {
+  state = {
+    value: ''
+  }
+
+  handleChange = (e) => {
+    e.preventDefault()
+    this.setState({ value: e.target.value })
+    console.log(e.target.value)
+  }
+
   render () {
     return (
       <Aux>
@@ -23,7 +33,8 @@ class Login extends Component {
                 </div>
                 <div className='form-group'>
                   <label htmlFor='phone number'>Phone Number</label>
-                  <input autoComplete='off' className='form-control password' id='phone' name='phone' placeholder='Phone Number' tabIndex='2' type='text' required />
+                  <input autoComplete='off' className='form-control password' onChange={this.handleChange}
+                  id='phone' name='phone' placeholder='Phone Number' tabIndex='2' type='text' required />
                 </div>
                 <button className='btn btn-lg btn-block' name='commit' tabIndex='3' type='submit' value='Log In'>LOGIN</button>
               </form>
